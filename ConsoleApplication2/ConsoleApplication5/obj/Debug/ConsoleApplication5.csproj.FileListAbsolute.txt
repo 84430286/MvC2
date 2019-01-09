@@ -1,0 +1,9 @@
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\bin\Debug\EntityFramework.dll
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\bin\Debug\EntityFramework.SqlServer.dll
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\bin\Debug\EntityFramework.xml
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\bin\Debug\EntityFramework.SqlServer.xml
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb

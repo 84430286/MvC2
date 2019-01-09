@@ -1,0 +1,28 @@
+﻿@model WebApplication1.Models.Employee
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>fromupdete</title>
+</head>
+<body>
+    <div>
+        @{
+
+        }
+        <form action="/employee/updetsave" method="post">
+            姓名：<input type="text" name="Name" value="@Model.Name">
+            工资：<input type="text" name="Salary" value="@Model.Salary">
+            <input type="hidden" name="EmployeeID" value="@Model.EmployeeID" />
+            <input type="submit" name="BtnSubmit" value="更改" />
+            <input type="submit" name="BtnSubmit" value="取消" />
+        </form>
+    </div>
+</body>
+</html>
+

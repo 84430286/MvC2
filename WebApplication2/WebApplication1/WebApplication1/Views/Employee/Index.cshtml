@@ -1,0 +1,33 @@
+﻿@model WebApplication1.ViewModels.EmployeeListViewModel
+
+@{
+    //Layout = null;
+    Layout = "~/Views/Shared/LoaoutView.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2>@Model.UserName,@Model.Greeting</h2>
+    <p><a href="/employee/addNew">新增</a></p>
+    <div> 
+        <form action="/employee/insert"method="post">
+        <input type="text" name="name">
+        <input type="submit" name="BtnSubmit" value="查询" />
+        
+        </form>
+        <ul>
+            @foreach (var item in Model.EmployeeViewList)
+            {
+                
+                <li>@item.EmployeeName,@item.EmployeeSalary,@item.EmployeeGrade @*<a href="/employee/delect/@item.EmployeeId">删除  </a>*@@Html.ActionLink("删除", "delect", new { Id = item.EmployeeId })     @*<a  href="/employee/updetsave/@item.EmployeeId">更新</a>*@@Html.ActionLink("更新", "updetsave", new { Id = item.EmployeeId })</li>
+            }
+        </ul>
+    </div>
+</body>
+</html>

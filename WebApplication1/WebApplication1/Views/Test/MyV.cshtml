@@ -1,0 +1,57 @@
+﻿@using WebApplication1.Models;
+@using WebApplication1.ViewModel;
+@model EmployeeListViewModel
+@{
+    Layout = null;
+    @*@{Employee e = (Employee)ViewData["xx"];}*@
+    @*@{ Customer c = (Customer)ViewData["Cust"]; }*@
+    //Employee e = ViewBag.Empkey;
+    //Customer c = ViewBag.Cust;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+</head>
+<body>
+    <h1>@Model.UserName</h1>
+    <p><a href="AddNew">新增</a></p>
+    <div>
+
+
+
+        <h2>
+
+            @Model.Greting @Model.UserName
+            @*@Model.UserName,*@
+            @*@Model.grting*@
+        </h2><hr />
+        <table>
+            <tr>
+                <th>名字</th>
+                <th>工资</th>
+                <th>级别</th>
+            </tr>
+            @foreach (EmployeeViewModel item in Model.Employees)
+            {
+                <tr>
+                    <td>@item.EmployeeName</td>
+                    <td>@item.EmployeeSalary</td>
+                    <td>@item.EmployeeGrade</td>
+                </tr>
+            }
+        </table>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

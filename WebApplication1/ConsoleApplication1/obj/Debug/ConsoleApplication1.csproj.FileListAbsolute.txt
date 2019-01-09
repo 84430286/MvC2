@@ -1,0 +1,6 @@
+D:\83梁俊\MVC\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\83梁俊\MVC\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\83梁俊\MVC\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\83梁俊\MVC\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\83梁俊\MVC\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\83梁俊\MVC\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

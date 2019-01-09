@@ -1,0 +1,10 @@
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\bin\Debug\EntityFramework.dll
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\bin\Debug\EntityFramework.SqlServer.dll
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\bin\Debug\EntityFramework.xml
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\bin\Debug\EntityFramework.SqlServer.xml
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\83梁俊\MVC\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
